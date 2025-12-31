@@ -30,7 +30,6 @@ T = zeros(rows,cols,dispLevels); % Transitions
 dispMap = zeros(rows,cols);
 
 % Forward step
-D(:,1,:) = C(:,1,:);
 for x = 2:cols
     cost = C(:,x-1,:)+D(:,x-1,:);
     [cost,ind] = min(cost+smoothnessCost3d,[],3);
@@ -55,3 +54,4 @@ imshow(dispImage)
 
 % Save disparity image
 imwrite(dispImage,'Disparity.png')
+

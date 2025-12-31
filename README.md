@@ -8,7 +8,7 @@ The Tsukuba stereo image that used as input.
   <img src="Left.png"> 
 </p>
 
-## Output Image (Without Long Jumps)
+## Output Image
 The disparity map that created at the output.
 
 <p align="center">

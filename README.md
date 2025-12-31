@@ -15,7 +15,7 @@ The disparity map that created at the output.
   <img src="Disparity.png"> 
 </p>
 
-## Output Image (With Long Jumps)
+## Output Image (Long Jumps)
 The disparity map when long disparity jumps are allowed.
 
 <p align="center">

@@ -1,5 +1,5 @@
 # Stereo Matching using Dynamic Programming (Left-Disparity Axes)
-A Matlab implementation of Dynamic Programming for stereo matching with a small improvement for better results. The DSI is constructed using left scanline and disparity as axes.
+A Matlab implementation of Dynamic Programming for stereo matching. The DSI is constructed using left scanline and disparity as axes.
 
 ## Input Image
 The Tsukuba stereo image that used as input.
